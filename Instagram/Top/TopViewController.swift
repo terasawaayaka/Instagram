@@ -20,6 +20,7 @@ extension TopViewController {
     override func loadView() {
         super.loadView()
         setHeaderView()
+        setDelegate()
     }
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -29,12 +30,20 @@ extension TopViewController {
     }
 }
 // MARK: - Protocol
-extension TopViewController {
+extension TopViewController: TopMainViewDelegate {
+    func didSelectRowAt() {
+        let secondViewController = SecondViewController()
+        navigationController?.pushViewController(secondViewController, animated: true)
+        animatorManager.navigationType = .slide_push
+    }
 }
 // MARK: - method
 extension TopViewController {
     func setHeaderView() {
         headerView.setCenter(text: "Home", fontSize: 19, color: UIColor.black)
         headerView.setRight(text: "投稿", fontSize: 16, color: UIColor.blue)
+    }
+    func setDelegate() {
+        topMainView.delegate = self
     }
 }
