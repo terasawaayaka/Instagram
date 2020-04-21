@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -12,6 +12,12 @@
 		1F11D73C244EA7D100B31ABD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F11D73A244EA7D100B31ABD /* Main.storyboard */; };
 		1F11D73E244EA7D400B31ABD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F11D73D244EA7D400B31ABD /* Assets.xcassets */; };
 		1F11D741244EA7D400B31ABD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F11D73F244EA7D400B31ABD /* LaunchScreen.storyboard */; };
+		1F11D74B244EAB8900B31ABD /* TopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F11D749244EAB8900B31ABD /* TopViewController.swift */; };
+		1F11D74C244EAB8900B31ABD /* TopViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F11D74A244EAB8900B31ABD /* TopViewController.xib */; };
+		1F11D750244EAEDC00B31ABD /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F11D74E244EAEDC00B31ABD /* SecondViewController.swift */; };
+		1F11D751244EAEDC00B31ABD /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F11D74F244EAEDC00B31ABD /* SecondViewController.xib */; };
+		1F11D754244EB13D00B31ABD /* TopMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F11D752244EB13D00B31ABD /* TopMainView.swift */; };
+		1F11D755244EB13D00B31ABD /* TopMainView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F11D753244EB13D00B31ABD /* TopMainView.xib */; };
 		50CABC1A19818687C4FA1679 /* Pods_Instagram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 755B776755B7AE3D30D96DED /* Pods_Instagram.framework */; };
 /* End PBXBuildFile section */
 
@@ -25,6 +31,12 @@
 		1F11D73D244EA7D400B31ABD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1F11D740244EA7D400B31ABD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1F11D742244EA7D400B31ABD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F11D749244EAB8900B31ABD /* TopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopViewController.swift; sourceTree = "<group>"; };
+		1F11D74A244EAB8900B31ABD /* TopViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TopViewController.xib; sourceTree = "<group>"; };
+		1F11D74E244EAEDC00B31ABD /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		1F11D74F244EAEDC00B31ABD /* SecondViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
+		1F11D752244EB13D00B31ABD /* TopMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopMainView.swift; sourceTree = "<group>"; };
+		1F11D753244EB13D00B31ABD /* TopMainView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TopMainView.xib; sourceTree = "<group>"; };
 		755B776755B7AE3D30D96DED /* Pods_Instagram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Instagram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -61,6 +73,8 @@
 		1F11D733244EA7D100B31ABD /* Instagram */ = {
 			isa = PBXGroup;
 			children = (
+				1F11D74D244EAEC900B31ABD /* Second */,
+				1F11D748244EAB6500B31ABD /* Top */,
 				1F11D734244EA7D100B31ABD /* AppDelegate.swift */,
 				1F11D736244EA7D100B31ABD /* SceneDelegate.swift */,
 				1F11D73A244EA7D100B31ABD /* Main.storyboard */,
@@ -69,6 +83,26 @@
 				1F11D742244EA7D400B31ABD /* Info.plist */,
 			);
 			path = Instagram;
+			sourceTree = "<group>";
+		};
+		1F11D748244EAB6500B31ABD /* Top */ = {
+			isa = PBXGroup;
+			children = (
+				1F11D749244EAB8900B31ABD /* TopViewController.swift */,
+				1F11D74A244EAB8900B31ABD /* TopViewController.xib */,
+				1F11D752244EB13D00B31ABD /* TopMainView.swift */,
+				1F11D753244EB13D00B31ABD /* TopMainView.xib */,
+			);
+			path = Top;
+			sourceTree = "<group>";
+		};
+		1F11D74D244EAEC900B31ABD /* Second */ = {
+			isa = PBXGroup;
+			children = (
+				1F11D74E244EAEDC00B31ABD /* SecondViewController.swift */,
+				1F11D74F244EAEDC00B31ABD /* SecondViewController.xib */,
+			);
+			path = Second;
 			sourceTree = "<group>";
 		};
 		56A991D47D6A36BC44643859 /* Frameworks */ = {
@@ -85,7 +119,6 @@
 				040FD5B2942CBC5F7E0B0C5D /* Pods-Instagram.debug.xcconfig */,
 				15D26B08A10857C8DFA709F6 /* Pods-Instagram.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -149,9 +182,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F11D74C244EAB8900B31ABD /* TopViewController.xib in Resources */,
 				1F11D741244EA7D400B31ABD /* LaunchScreen.storyboard in Resources */,
 				1F11D73E244EA7D400B31ABD /* Assets.xcassets in Resources */,
 				1F11D73C244EA7D100B31ABD /* Main.storyboard in Resources */,
+				1F11D751244EAEDC00B31ABD /* SecondViewController.xib in Resources */,
+				1F11D755244EB13D00B31ABD /* TopMainView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -204,8 +240,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F11D750244EAEDC00B31ABD /* SecondViewController.swift in Sources */,
+				1F11D74B244EAB8900B31ABD /* TopViewController.swift in Sources */,
 				1F11D735244EA7D100B31ABD /* AppDelegate.swift in Sources */,
 				1F11D737244EA7D100B31ABD /* SceneDelegate.swift in Sources */,
+				1F11D754244EB13D00B31ABD /* TopMainView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
