@@ -18,6 +18,10 @@
 		1F11D751244EAEDC00B31ABD /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F11D74F244EAEDC00B31ABD /* SecondViewController.xib */; };
 		1F11D754244EB13D00B31ABD /* TopMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F11D752244EB13D00B31ABD /* TopMainView.swift */; };
 		1F11D755244EB13D00B31ABD /* TopMainView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F11D753244EB13D00B31ABD /* TopMainView.xib */; };
+		1F11D758244EB4FB00B31ABD /* TopMainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F11D756244EB4FB00B31ABD /* TopMainTableViewCell.swift */; };
+		1F11D759244EB4FB00B31ABD /* TopMainTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F11D757244EB4FB00B31ABD /* TopMainTableViewCell.xib */; };
+		1F11D75C244EBBA800B31ABD /* TopMainCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F11D75A244EBBA800B31ABD /* TopMainCollectionViewCell.swift */; };
+		1F11D75D244EBBA800B31ABD /* TopMainCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F11D75B244EBBA800B31ABD /* TopMainCollectionViewCell.xib */; };
 		50CABC1A19818687C4FA1679 /* Pods_Instagram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 755B776755B7AE3D30D96DED /* Pods_Instagram.framework */; };
 /* End PBXBuildFile section */
 
@@ -37,6 +41,10 @@
 		1F11D74F244EAEDC00B31ABD /* SecondViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
 		1F11D752244EB13D00B31ABD /* TopMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopMainView.swift; sourceTree = "<group>"; };
 		1F11D753244EB13D00B31ABD /* TopMainView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TopMainView.xib; sourceTree = "<group>"; };
+		1F11D756244EB4FB00B31ABD /* TopMainTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopMainTableViewCell.swift; sourceTree = "<group>"; };
+		1F11D757244EB4FB00B31ABD /* TopMainTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TopMainTableViewCell.xib; sourceTree = "<group>"; };
+		1F11D75A244EBBA800B31ABD /* TopMainCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopMainCollectionViewCell.swift; sourceTree = "<group>"; };
+		1F11D75B244EBBA800B31ABD /* TopMainCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TopMainCollectionViewCell.xib; sourceTree = "<group>"; };
 		755B776755B7AE3D30D96DED /* Pods_Instagram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Instagram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -92,6 +100,10 @@
 				1F11D74A244EAB8900B31ABD /* TopViewController.xib */,
 				1F11D752244EB13D00B31ABD /* TopMainView.swift */,
 				1F11D753244EB13D00B31ABD /* TopMainView.xib */,
+				1F11D756244EB4FB00B31ABD /* TopMainTableViewCell.swift */,
+				1F11D757244EB4FB00B31ABD /* TopMainTableViewCell.xib */,
+				1F11D75A244EBBA800B31ABD /* TopMainCollectionViewCell.swift */,
+				1F11D75B244EBBA800B31ABD /* TopMainCollectionViewCell.xib */,
 			);
 			path = Top;
 			sourceTree = "<group>";
@@ -185,7 +197,9 @@
 				1F11D74C244EAB8900B31ABD /* TopViewController.xib in Resources */,
 				1F11D741244EA7D400B31ABD /* LaunchScreen.storyboard in Resources */,
 				1F11D73E244EA7D400B31ABD /* Assets.xcassets in Resources */,
+				1F11D759244EB4FB00B31ABD /* TopMainTableViewCell.xib in Resources */,
 				1F11D73C244EA7D100B31ABD /* Main.storyboard in Resources */,
+				1F11D75D244EBBA800B31ABD /* TopMainCollectionViewCell.xib in Resources */,
 				1F11D751244EAEDC00B31ABD /* SecondViewController.xib in Resources */,
 				1F11D755244EB13D00B31ABD /* TopMainView.xib in Resources */,
 			);
@@ -240,7 +254,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F11D758244EB4FB00B31ABD /* TopMainTableViewCell.swift in Sources */,
 				1F11D750244EAEDC00B31ABD /* SecondViewController.swift in Sources */,
+				1F11D75C244EBBA800B31ABD /* TopMainCollectionViewCell.swift in Sources */,
 				1F11D74B244EAB8900B31ABD /* TopViewController.swift in Sources */,
 				1F11D735244EA7D100B31ABD /* AppDelegate.swift in Sources */,
 				1F11D737244EA7D100B31ABD /* SceneDelegate.swift in Sources */,
