@@ -11,11 +11,15 @@ import UIKit
 import PGFramework
 // MARK: - Property
 class SecondViewController: BaseViewController {
+    
+    @IBOutlet weak var headerView: HeaderView!
 }
 // MARK: - Life cycle
 extension SecondViewController {
     override func loadView() {
         super.loadView()
+        setHeaderView()
+        setDelegate()
     }
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -25,8 +29,20 @@ extension SecondViewController {
     }
 }
 // MARK: - Protocol
-extension SecondViewController {
+extension SecondViewController:HeaderViewDelegate {
+    func touchedLeftButton(_ sender: UIButton) {
+        _ = TopViewController()
+        navigationController?.popViewController(animated: true)
+        animatorManager.navigationType = .slide_pop
+    }
 }
 // MARK: - method
 extension SecondViewController {
+    func setHeaderView() {
+        headerView.setCenter(text: "投稿詳細", fontSize: 19, color: UIColor.black)
+        headerView.setLeft(text: "<", fontSize: 16, color: UIColor.gray)
+    }
+    func setDelegate() {
+        headerView.delegate = self
+    }
 }
