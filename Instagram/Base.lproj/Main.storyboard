@@ -9,7 +9,7 @@
         <!--Item-->
         <scene sceneID="YFz-ch-01h">
             <objects>
-                <viewController id="jHa-Ao-hYC" customClass="SecondViewController" customModule="Instagram" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="jHa-Ao-hYC" customClass="ThirdViewController" customModule="Instagram" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Item" id="5cV-W8-hdA"/>
                     <navigationItem key="navigationItem" id="jWX-zA-iZq"/>
                 </viewController>
