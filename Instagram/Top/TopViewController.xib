@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16086"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TopViewController" customModule="Instagram" customModuleProvider="target">
+            <connections>
+                <outlet property="headerView" destination="N7M-nW-IQj" id="fyo-ID-VHP"/>
+                <outlet property="topMainView" destination="PCY-Ls-KOq" id="zMM-Lc-HtV"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PCY-Ls-KOq" customClass="TopMainView" customModule="Instagram" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="92" width="414" height="770"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="N7M-nW-IQj" customClass="HeaderView" customModule="PGFramework">
+                    <rect key="frame" x="0.0" y="44" width="414" height="48"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="48" id="9pd-vi-cSt"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+            <constraints>
+                <constraint firstItem="N7M-nW-IQj" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="A7g-wn-xEQ"/>
+                <constraint firstItem="N7M-nW-IQj" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="Q8Q-03-blb"/>
+                <constraint firstItem="N7M-nW-IQj" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="dDA-OA-70I"/>
+                <constraint firstItem="PCY-Ls-KOq" firstAttribute="leading" secondItem="N7M-nW-IQj" secondAttribute="leading" id="h97-fg-ng7"/>
+                <constraint firstItem="PCY-Ls-KOq" firstAttribute="bottom" secondItem="fnl-2z-Ty3" secondAttribute="bottom" id="pga-b5-JnL"/>
+                <constraint firstItem="PCY-Ls-KOq" firstAttribute="trailing" secondItem="N7M-nW-IQj" secondAttribute="trailing" id="wPw-vr-43c"/>
+                <constraint firstItem="PCY-Ls-KOq" firstAttribute="top" secondItem="N7M-nW-IQj" secondAttribute="bottom" id="wwK-5l-N4M"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <point key="canvasLocation" x="137.68115942028987" y="126.5625"/>
+        </view>
+    </objects>
+</document>
