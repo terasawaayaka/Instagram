@@ -16,26 +16,28 @@
                 <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="237-ni-eU9">
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pooh" translatesAutoresizingMaskIntoConstraints="NO" id="VkW-vT-FEo">
                         <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
-                        <color key="backgroundColor" red="1" green="0.88170003539999997" blue="0.94902921979999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstAttribute="height" constant="50" id="0kf-3d-c6g"/>
-                            <constraint firstAttribute="width" constant="50" id="byA-yx-anx"/>
+                            <constraint firstAttribute="width" constant="50" id="6bh-zX-U7U"/>
+                            <constraint firstAttribute="height" constant="50" id="xBJ-OV-THQ"/>
                         </constraints>
-                    </view>
+                    </imageView>
                 </subviews>
                 <constraints>
-                    <constraint firstAttribute="trailing" secondItem="237-ni-eU9" secondAttribute="trailing" id="OTt-XP-Yu7"/>
-                    <constraint firstAttribute="bottom" secondItem="237-ni-eU9" secondAttribute="bottom" id="QXC-ND-Sja"/>
-                    <constraint firstItem="237-ni-eU9" firstAttribute="leading" secondItem="THt-AB-60A" secondAttribute="leading" id="gcv-9J-p9d"/>
-                    <constraint firstItem="237-ni-eU9" firstAttribute="top" secondItem="THt-AB-60A" secondAttribute="top" id="wka-mu-4oI"/>
+                    <constraint firstAttribute="trailing" secondItem="VkW-vT-FEo" secondAttribute="trailing" id="Ebe-0Y-hPB"/>
+                    <constraint firstAttribute="bottom" secondItem="VkW-vT-FEo" secondAttribute="bottom" id="Zfu-mI-GCb"/>
+                    <constraint firstItem="VkW-vT-FEo" firstAttribute="top" secondItem="THt-AB-60A" secondAttribute="top" id="aLj-cX-Ij1"/>
+                    <constraint firstItem="VkW-vT-FEo" firstAttribute="leading" secondItem="THt-AB-60A" secondAttribute="leading" id="hmU-bb-ri9"/>
                 </constraints>
             </collectionViewCellContentView>
             <connections>
-                <outlet property="roundView" destination="237-ni-eU9" id="f4T-Ln-C3X"/>
+                <outlet property="roundView" destination="VkW-vT-FEo" id="4mB-Wb-jON"/>
             </connections>
             <point key="canvasLocation" x="140.57971014492756" y="9.375"/>
         </collectionViewCell>
     </objects>
+    <resources>
+        <image name="pooh" width="170" height="170"/>
+    </resources>
 </document>

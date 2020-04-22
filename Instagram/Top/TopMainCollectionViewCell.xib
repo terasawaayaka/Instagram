@@ -16,27 +16,29 @@
                 <rect key="frame" x="0.0" y="0.0" width="55" height="55"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="J7k-E3-hGb">
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pooh" translatesAutoresizingMaskIntoConstraints="NO" id="cP8-Jd-HWv">
                         <rect key="frame" x="0.0" y="0.0" width="55" height="55"/>
-                        <color key="backgroundColor" red="1" green="0.88170003539999997" blue="0.94902921979999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstAttribute="width" constant="55" id="Qmj-6A-eHC"/>
-                            <constraint firstAttribute="height" constant="55" id="h70-wc-XTj"/>
+                            <constraint firstAttribute="width" constant="55" id="0gP-eM-TXs"/>
+                            <constraint firstAttribute="height" constant="55" id="OZw-Oo-BsW"/>
                         </constraints>
-                    </view>
+                    </imageView>
                 </subviews>
                 <constraints>
-                    <constraint firstItem="J7k-E3-hGb" firstAttribute="top" secondItem="avC-gH-0dg" secondAttribute="top" id="A3S-DI-bue"/>
-                    <constraint firstAttribute="trailing" secondItem="J7k-E3-hGb" secondAttribute="trailing" id="kmT-vf-9oP"/>
-                    <constraint firstAttribute="bottom" secondItem="J7k-E3-hGb" secondAttribute="bottom" id="kyv-73-Zm1"/>
-                    <constraint firstItem="J7k-E3-hGb" firstAttribute="leading" secondItem="avC-gH-0dg" secondAttribute="leading" id="uxs-cc-EC6"/>
+                    <constraint firstItem="cP8-Jd-HWv" firstAttribute="leading" secondItem="avC-gH-0dg" secondAttribute="leading" id="11f-wz-06e"/>
+                    <constraint firstAttribute="trailing" secondItem="cP8-Jd-HWv" secondAttribute="trailing" id="3FF-iu-2wv"/>
+                    <constraint firstItem="cP8-Jd-HWv" firstAttribute="top" secondItem="avC-gH-0dg" secondAttribute="top" id="4Sy-cU-TA8"/>
+                    <constraint firstAttribute="bottom" secondItem="cP8-Jd-HWv" secondAttribute="bottom" id="O8G-Ds-LK3"/>
                 </constraints>
             </collectionViewCellContentView>
             <size key="customSize" width="55" height="55"/>
             <connections>
-                <outlet property="roundView" destination="J7k-E3-hGb" id="LuE-dv-dg7"/>
+                <outlet property="roundView" destination="cP8-Jd-HWv" id="Oup-g9-012"/>
             </connections>
             <point key="canvasLocation" x="134.05797101449275" y="78.013392857142847"/>
         </collectionViewCell>
     </objects>
+    <resources>
+        <image name="pooh" width="170" height="170"/>
+    </resources>
 </document>

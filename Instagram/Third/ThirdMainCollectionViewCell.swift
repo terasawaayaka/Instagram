@@ -17,7 +17,8 @@ extension ThirdMainCollectionViewCellDelegate {
 class ThirdMainCollectionViewCell: BaseCollectionViewCell {
     weak var delegate: ThirdMainCollectionViewCellDelegate? = nil
     
-    @IBOutlet weak var roundView: UIView!
+    @IBOutlet weak var roundView: UIImageView!
+ 
 }
 // MARK: - Life cycle
 extension ThirdMainCollectionViewCell {

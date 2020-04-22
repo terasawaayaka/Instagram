@@ -17,7 +17,8 @@ extension SecondMainCollectionViewCellDelegate {
 class SecondMainCollectionViewCell: BaseCollectionViewCell {
     weak var delegate: SecondMainCollectionViewCellDelegate? = nil
     
-    @IBOutlet weak var roundView: UIView!
+    @IBOutlet weak var roundView: UIImageView!
+   
 }
 // MARK: - Life cycle
 extension SecondMainCollectionViewCell {

@@ -17,7 +17,8 @@ extension TopMainCollectionViewCellDelegate {
 class TopMainCollectionViewCell: BaseCollectionViewCell {
     weak var delegate: TopMainCollectionViewCellDelegate? = nil
     
-    @IBOutlet weak var roundView: UIView!
+    @IBOutlet weak var roundView: UIImageView!
+
 }
 // MARK: - Life cycle
 extension TopMainCollectionViewCell {
