@@ -47,7 +47,10 @@
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RmC-iG-YU3">
                                 <rect key="frame" x="36" y="421" width="364" height="129"/>
-                                <string key="text">text text text text text text text text text texttext text text text text text text text text text text text text text text text text text text texttext text text text texttext text text text text</string>
+                                <string key="text">text text text text text text text text text text
+text text text text text text text text text text text text text text text text text text text text
+text text text text text
+text text text text text</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -79,6 +82,7 @@
             <connections>
                 <outlet property="collectionView" destination="yWJ-6I-6Lm" id="XAi-bR-EZl"/>
                 <outlet property="collectionViewFlowLayout" destination="bnh-vw-GEa" id="XzL-8E-w9k"/>
+                <outlet property="descriptionLabel" destination="RmC-iG-YU3" id="CA9-dL-0ln"/>
             </connections>
             <point key="canvasLocation" x="314.49275362318843" y="250.78125"/>
         </tableViewCell>

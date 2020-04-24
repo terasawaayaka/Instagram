@@ -20,6 +20,9 @@ class TopMainTableViewCell: BaseTableViewCell {
     @IBOutlet weak var collectionView: UICollectionView!
     
     @IBOutlet weak var collectionViewFlowLayout: UICollectionViewFlowLayout!
+    
+    @IBOutlet weak var descriptionLabel: UILabel!
+    
 }
 // MARK: - Life cycle
 extension TopMainTableViewCell {
@@ -48,5 +51,8 @@ extension TopMainTableViewCell:UICollectionViewDataSource {
 extension TopMainTableViewCell {
     func setDelegate() {
         collectionView.dataSource = self
+    }
+    func updateCell(postModel: PostModel) {
+        descriptionLabel.text = postModel.description
     }
 }
