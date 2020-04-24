@@ -32,6 +32,12 @@
 		1F11D777244ED35A00B31ABD /* ThirdMainView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F11D775244ED35A00B31ABD /* ThirdMainView.xib */; };
 		1F11D77A244ED59900B31ABD /* ThirdMainCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F11D778244ED59900B31ABD /* ThirdMainCollectionViewCell.swift */; };
 		1F11D77B244ED59900B31ABD /* ThirdMainCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F11D779244ED59900B31ABD /* ThirdMainCollectionViewCell.xib */; };
+		1F11D7D32450259D00B31ABD /* FourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F11D7D12450259D00B31ABD /* FourthViewController.swift */; };
+		1F11D7D42450259D00B31ABD /* FourthViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F11D7D22450259D00B31ABD /* FourthViewController.xib */; };
+		1F11D7DA24502B8F00B31ABD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1F11D7D924502B8F00B31ABD /* GoogleService-Info.plist */; };
+		1F11D7DD24502CBF00B31ABD /* PostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F11D7DC24502CBF00B31ABD /* PostModel.swift */; };
+		1F11D7E02450466300B31ABD /* FourthMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F11D7DE2450466300B31ABD /* FourthMainView.swift */; };
+		1F11D7E12450466300B31ABD /* FourthMainView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F11D7DF2450466300B31ABD /* FourthMainView.xib */; };
 		50CABC1A19818687C4FA1679 /* Pods_Instagram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 755B776755B7AE3D30D96DED /* Pods_Instagram.framework */; };
 /* End PBXBuildFile section */
 
@@ -65,6 +71,12 @@
 		1F11D775244ED35A00B31ABD /* ThirdMainView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ThirdMainView.xib; sourceTree = "<group>"; };
 		1F11D778244ED59900B31ABD /* ThirdMainCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdMainCollectionViewCell.swift; sourceTree = "<group>"; };
 		1F11D779244ED59900B31ABD /* ThirdMainCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ThirdMainCollectionViewCell.xib; sourceTree = "<group>"; };
+		1F11D7D12450259D00B31ABD /* FourthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthViewController.swift; sourceTree = "<group>"; };
+		1F11D7D22450259D00B31ABD /* FourthViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FourthViewController.xib; sourceTree = "<group>"; };
+		1F11D7D924502B8F00B31ABD /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		1F11D7DC24502CBF00B31ABD /* PostModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostModel.swift; sourceTree = "<group>"; };
+		1F11D7DE2450466300B31ABD /* FourthMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthMainView.swift; sourceTree = "<group>"; };
+		1F11D7DF2450466300B31ABD /* FourthMainView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FourthMainView.xib; sourceTree = "<group>"; };
 		755B776755B7AE3D30D96DED /* Pods_Instagram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Instagram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -101,6 +113,8 @@
 		1F11D733244EA7D100B31ABD /* Instagram */ = {
 			isa = PBXGroup;
 			children = (
+				1F11D7DB24502C9400B31ABD /* Model */,
+				1F11D7D02450257B00B31ABD /* Fourth */,
 				1F11D76F244ED31100B31ABD /* Third */,
 				1F11D74D244EAEC900B31ABD /* Second */,
 				1F11D748244EAB6500B31ABD /* Top */,
@@ -110,6 +124,7 @@
 				1F11D73D244EA7D400B31ABD /* Assets.xcassets */,
 				1F11D73F244EA7D400B31ABD /* LaunchScreen.storyboard */,
 				1F11D742244EA7D400B31ABD /* Info.plist */,
+				1F11D7D924502B8F00B31ABD /* GoogleService-Info.plist */,
 			);
 			path = Instagram;
 			sourceTree = "<group>";
@@ -153,6 +168,25 @@
 				1F11D779244ED59900B31ABD /* ThirdMainCollectionViewCell.xib */,
 			);
 			path = Third;
+			sourceTree = "<group>";
+		};
+		1F11D7D02450257B00B31ABD /* Fourth */ = {
+			isa = PBXGroup;
+			children = (
+				1F11D7D12450259D00B31ABD /* FourthViewController.swift */,
+				1F11D7D22450259D00B31ABD /* FourthViewController.xib */,
+				1F11D7DE2450466300B31ABD /* FourthMainView.swift */,
+				1F11D7DF2450466300B31ABD /* FourthMainView.xib */,
+			);
+			path = Fourth;
+			sourceTree = "<group>";
+		};
+		1F11D7DB24502C9400B31ABD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1F11D7DC24502CBF00B31ABD /* PostModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		56A991D47D6A36BC44643859 /* Frameworks */ = {
@@ -234,13 +268,16 @@
 			files = (
 				1F11D765244ECCCD00B31ABD /* SecondMainCollectionViewCell.xib in Resources */,
 				1F11D77B244ED59900B31ABD /* ThirdMainCollectionViewCell.xib in Resources */,
+				1F11D7DA24502B8F00B31ABD /* GoogleService-Info.plist in Resources */,
 				1F11D74C244EAB8900B31ABD /* TopViewController.xib in Resources */,
 				1F11D741244EA7D400B31ABD /* LaunchScreen.storyboard in Resources */,
+				1F11D7D42450259D00B31ABD /* FourthViewController.xib in Resources */,
 				1F11D73E244EA7D400B31ABD /* Assets.xcassets in Resources */,
 				1F11D773244ED32B00B31ABD /* ThirdViewController.xib in Resources */,
 				1F11D759244EB4FB00B31ABD /* TopMainTableViewCell.xib in Resources */,
 				1F11D73C244EA7D100B31ABD /* Main.storyboard in Resources */,
 				1F11D761244EC86400B31ABD /* SecondMainView.xib in Resources */,
+				1F11D7E12450466300B31ABD /* FourthMainView.xib in Resources */,
 				1F11D75D244EBBA800B31ABD /* TopMainCollectionViewCell.xib in Resources */,
 				1F11D777244ED35A00B31ABD /* ThirdMainView.xib in Resources */,
 				1F11D751244EAEDC00B31ABD /* SecondViewController.xib in Resources */,
@@ -300,12 +337,15 @@
 				1F11D758244EB4FB00B31ABD /* TopMainTableViewCell.swift in Sources */,
 				1F11D77A244ED59900B31ABD /* ThirdMainCollectionViewCell.swift in Sources */,
 				1F11D750244EAEDC00B31ABD /* SecondViewController.swift in Sources */,
+				1F11D7DD24502CBF00B31ABD /* PostModel.swift in Sources */,
 				1F11D772244ED32B00B31ABD /* ThirdViewController.swift in Sources */,
 				1F11D75C244EBBA800B31ABD /* TopMainCollectionViewCell.swift in Sources */,
+				1F11D7D32450259D00B31ABD /* FourthViewController.swift in Sources */,
 				1F11D760244EC86400B31ABD /* SecondMainView.swift in Sources */,
 				1F11D776244ED35A00B31ABD /* ThirdMainView.swift in Sources */,
 				1F11D74B244EAB8900B31ABD /* TopViewController.swift in Sources */,
 				1F11D735244EA7D100B31ABD /* AppDelegate.swift in Sources */,
+				1F11D7E02450466300B31ABD /* FourthMainView.swift in Sources */,
 				1F11D737244EA7D100B31ABD /* SceneDelegate.swift in Sources */,
 				1F11D764244ECCCD00B31ABD /* SecondMainCollectionViewCell.swift in Sources */,
 				1F11D754244EB13D00B31ABD /* TopMainView.swift in Sources */,

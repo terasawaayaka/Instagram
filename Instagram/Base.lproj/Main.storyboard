@@ -48,11 +48,10 @@
         <!--Home-->
         <scene sceneID="Sr9-E6-RXX">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="zxs-rB-ic4" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="zxs-rB-ic4" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Home" id="8M8-Dq-HF7"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="REe-a7-DrV">
-                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -67,11 +66,10 @@
         <!--MyPage-->
         <scene sceneID="wZg-kK-Sxs">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="gw3-c7-A6G" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="gw3-c7-A6G" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="MyPage" id="OfD-zV-BL9"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="bBK-3D-NGY">
-                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
