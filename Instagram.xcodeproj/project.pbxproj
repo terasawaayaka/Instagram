@@ -24,8 +24,6 @@
 		1F11D75D244EBBA800B31ABD /* TopMainCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F11D75B244EBBA800B31ABD /* TopMainCollectionViewCell.xib */; };
 		1F11D760244EC86400B31ABD /* SecondMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F11D75E244EC86400B31ABD /* SecondMainView.swift */; };
 		1F11D761244EC86400B31ABD /* SecondMainView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F11D75F244EC86400B31ABD /* SecondMainView.xib */; };
-		1F11D764244ECCCD00B31ABD /* SecondMainCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F11D762244ECCCD00B31ABD /* SecondMainCollectionViewCell.swift */; };
-		1F11D765244ECCCD00B31ABD /* SecondMainCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F11D763244ECCCD00B31ABD /* SecondMainCollectionViewCell.xib */; };
 		1F11D772244ED32B00B31ABD /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F11D770244ED32B00B31ABD /* ThirdViewController.swift */; };
 		1F11D773244ED32B00B31ABD /* ThirdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F11D771244ED32B00B31ABD /* ThirdViewController.xib */; };
 		1F11D776244ED35A00B31ABD /* ThirdMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F11D774244ED35A00B31ABD /* ThirdMainView.swift */; };
@@ -63,8 +61,6 @@
 		1F11D75B244EBBA800B31ABD /* TopMainCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TopMainCollectionViewCell.xib; sourceTree = "<group>"; };
 		1F11D75E244EC86400B31ABD /* SecondMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondMainView.swift; sourceTree = "<group>"; };
 		1F11D75F244EC86400B31ABD /* SecondMainView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SecondMainView.xib; sourceTree = "<group>"; };
-		1F11D762244ECCCD00B31ABD /* SecondMainCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondMainCollectionViewCell.swift; sourceTree = "<group>"; };
-		1F11D763244ECCCD00B31ABD /* SecondMainCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SecondMainCollectionViewCell.xib; sourceTree = "<group>"; };
 		1F11D770244ED32B00B31ABD /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 		1F11D771244ED32B00B31ABD /* ThirdViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ThirdViewController.xib; sourceTree = "<group>"; };
 		1F11D774244ED35A00B31ABD /* ThirdMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdMainView.swift; sourceTree = "<group>"; };
@@ -151,8 +147,6 @@
 				1F11D74F244EAEDC00B31ABD /* SecondViewController.xib */,
 				1F11D75E244EC86400B31ABD /* SecondMainView.swift */,
 				1F11D75F244EC86400B31ABD /* SecondMainView.xib */,
-				1F11D762244ECCCD00B31ABD /* SecondMainCollectionViewCell.swift */,
-				1F11D763244ECCCD00B31ABD /* SecondMainCollectionViewCell.xib */,
 			);
 			path = Second;
 			sourceTree = "<group>";
@@ -266,7 +260,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F11D765244ECCCD00B31ABD /* SecondMainCollectionViewCell.xib in Resources */,
 				1F11D77B244ED59900B31ABD /* ThirdMainCollectionViewCell.xib in Resources */,
 				1F11D7DA24502B8F00B31ABD /* GoogleService-Info.plist in Resources */,
 				1F11D74C244EAB8900B31ABD /* TopViewController.xib in Resources */,
@@ -347,7 +340,6 @@
 				1F11D735244EA7D100B31ABD /* AppDelegate.swift in Sources */,
 				1F11D7E02450466300B31ABD /* FourthMainView.swift in Sources */,
 				1F11D737244EA7D100B31ABD /* SceneDelegate.swift in Sources */,
-				1F11D764244ECCCD00B31ABD /* SecondMainCollectionViewCell.swift in Sources */,
 				1F11D754244EB13D00B31ABD /* TopMainView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

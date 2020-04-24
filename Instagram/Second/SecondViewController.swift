@@ -12,6 +12,7 @@ import PGFramework
 // MARK: - Property
 class SecondViewController: BaseViewController {
     
+    @IBOutlet weak var secondMainView: SecondMainView!
     @IBOutlet weak var headerView: HeaderView!
     var postModel: PostModel = PostModel()
 }
@@ -21,13 +22,14 @@ extension SecondViewController {
         super.loadView()
         setHeaderView()
         setDelegate()
-        print("DESC: ",postModel.description)
+//        print("DESC: ",postModel.description)
     }
     override func viewDidLoad() {
         super.viewDidLoad()
     }
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
+        getModel()
     }
 }
 // MARK: - Protocol
@@ -46,5 +48,9 @@ extension SecondViewController {
     }
     func setDelegate() {
         headerView.delegate = self
+    }
+    func getModel() {
+            self.secondMainView.getModel(postModel: postModel)
+
     }
 }

@@ -17,37 +17,26 @@ extension SecondMainViewDelegate {
 class SecondMainView: BaseView {
     weak var delegate: SecondMainViewDelegate? = nil
     
-    @IBOutlet weak var collectionView: UICollectionView!
-    @IBOutlet weak var collectionViewFlowLayout: UICollectionViewFlowLayout!
-    
     @IBOutlet weak var descriptionLabel: UILabel!
+    var postModel: PostModel = PostModel()
 }
 // MARK: - Life cycle
 extension SecondMainView {
     override func awakeFromNib() {
         super.awakeFromNib()
-        setDelegate()
-        collectionViewFlowLayout.estimatedItemSize = CGSize (width: collectionView.frame.width, height: collectionView.frame.height)
-        loadCollectionViewCellFromXib(collectionView: collectionView, cellName: "SecondMainCollectionViewCell")
     }
 }
 // MARK: - Protocol
-extension SecondMainView:UICollectionViewDataSource {
-    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return 1
-    }
-    
-    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "SecondMainCollectionViewCell", for: indexPath) as?
-            SecondMainCollectionViewCell else {return UICollectionViewCell() }
-        return cell
-    }
-    
+extension SecondMainView {
 }
 
 // MARK: - method
 extension SecondMainView {
-    func setDelegate() {
-        collectionView.dataSource = self
+    func getModel(postModel: PostModel) {
+        updataCell(postModel: postModel)
+
+    }
+    func updataCell(postModel: PostModel) {
+        descriptionLabel.text = postModel.description
     }
 }

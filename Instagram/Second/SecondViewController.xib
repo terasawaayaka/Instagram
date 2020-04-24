@@ -10,6 +10,7 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SecondViewController" customModule="Instagram" customModuleProvider="target">
             <connections>
                 <outlet property="headerView" destination="lpZ-yi-D0B" id="3RM-kJ-pm4"/>
+                <outlet property="secondMainView" destination="IAz-ZS-t5c" id="IfA-Zb-cHP"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
