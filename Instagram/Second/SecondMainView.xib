@@ -11,6 +11,7 @@
             <connections>
                 <outlet property="collectionView" destination="HSw-3A-YCq" id="56r-fh-NuY"/>
                 <outlet property="collectionViewFlowLayout" destination="6e5-Ru-MY2" id="nvU-yA-AiC"/>
+                <outlet property="descriptionLabel" destination="aIp-Is-TV5" id="4A9-bb-Kan"/>
             </connections>
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
@@ -28,7 +29,12 @@
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aIp-Is-TV5">
                             <rect key="frame" x="27" y="371" width="349" height="216"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            <string key="text">text text text text text text text text text texttext text text text text text text text text text text text text text text text text text text texttext text text text texttext text text text texttext text text text texttext text text text text</string>
+                            <string key="text">text text text text text text text text text text
+text text text text text text text text text text text text text text text text text text text text
+text text text text text
+text text text text text
+text text text text text
+text text text text text</string>
                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                             <nil key="textColor"/>
                             <nil key="highlightedColor"/>

@@ -13,6 +13,7 @@ import PGFramework
 class SecondViewController: BaseViewController {
     
     @IBOutlet weak var headerView: HeaderView!
+    var postModel: PostModel = PostModel()
 }
 // MARK: - Life cycle
 extension SecondViewController {
@@ -20,6 +21,7 @@ extension SecondViewController {
         super.loadView()
         setHeaderView()
         setDelegate()
+        print("DESC: ",postModel.description)
     }
     override func viewDidLoad() {
         super.viewDidLoad()

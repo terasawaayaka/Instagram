@@ -18,8 +18,9 @@ class SecondMainView: BaseView {
     weak var delegate: SecondMainViewDelegate? = nil
     
     @IBOutlet weak var collectionView: UICollectionView!
-    
     @IBOutlet weak var collectionViewFlowLayout: UICollectionViewFlowLayout!
+    
+    @IBOutlet weak var descriptionLabel: UILabel!
 }
 // MARK: - Life cycle
 extension SecondMainView {
