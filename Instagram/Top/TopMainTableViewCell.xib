@@ -18,7 +18,7 @@
                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="efz-Cv-hkZ">
                         <rect key="frame" x="0.0" y="0.0" width="436" height="635"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="XQO-2h-raf">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="disney" translatesAutoresizingMaskIntoConstraints="NO" id="XQO-2h-raf">
                                 <rect key="frame" x="0.0" y="90" width="436" height="296"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="296" id="u6L-2g-VXP"/>
@@ -88,6 +88,6 @@ text text text text text</string>
         </tableViewCell>
     </objects>
     <resources>
-        <image name="Image" width="275" height="183"/>
+        <image name="disney" width="275" height="183"/>
     </resources>
 </document>

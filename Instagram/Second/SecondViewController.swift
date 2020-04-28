@@ -39,12 +39,21 @@ extension SecondViewController:HeaderViewDelegate {
         navigationController?.popViewController(animated: true)
         animatorManager.navigationType = .slide_pop
     }
+    func touchedRightButton(_ sender: UIButton) {
+        let editViewController = EditViewController()
+        editViewController.postModel = postModel
+        editViewController.modalPresentationStyle = .fullScreen
+        present(editViewController, animated: true, completion: nil)
+    }
 }
 // MARK: - method
 extension SecondViewController {
     func setHeaderView() {
         headerView.setCenter(text: "投稿詳細", fontSize: 19, color: UIColor.black)
         headerView.setLeft(text: "<", fontSize: 16, color: UIColor.gray)
+        if let image = UIImage(named: "three") {
+            headerView.setRight(image: image)
+        }
     }
     func setDelegate() {
         headerView.delegate = self

@@ -70,11 +70,21 @@ extension PostModel {
 
 //MARK - Updata
 extension PostModel {
-    
+    static func update(request: PostModel,success:@escaping() -> Void) {
+        let id = request.id
+        let dbRef = Database.database().reference().child(PATH).child(request.id)
+        let parameter = setParameter(request: request)
+        dbRef.updateChildValues(parameter){(error,dbRef) in
+            if error != nil {
+                print("updateエラー:",error)
+            } else {
+                success()
+            }
+        }
+    }
 }
 
 //MARK - Delete
 extension PostModel {
     
 }
-
