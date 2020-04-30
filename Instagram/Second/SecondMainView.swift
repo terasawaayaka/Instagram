@@ -33,10 +33,10 @@ extension SecondMainView {
 // MARK: - method
 extension SecondMainView {
     func getModel(postModel: PostModel) {
-        updataCell(postModel: postModel)
+        updateView(postModel: postModel)
 
     }
-    func updataCell(postModel: PostModel) {
+    func updateView(postModel: PostModel) {
         descriptionLabel.text = postModel.description
     }
 }
