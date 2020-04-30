@@ -59,7 +59,13 @@ extension SecondViewController {
         headerView.delegate = self
     }
     func getModel() {
-            self.secondMainView.getModel(postModel: postModel)
-
+        PostModel.readAt(id: postModel.id, success: { (postModel) in
+            self.postModel = postModel
+        }) {
+            self.navigationController?.popViewController(animated: true)
+            self.animatorManager.navigationType = .slide_pop
+        }
+        self.secondMainView.getModel(postModel: postModel)
     }
+    
 }

@@ -10,6 +10,7 @@ import UIKit
 
 import PGFramework
 protocol EditMainViewDelegate: NSObjectProtocol{
+    func touchedDeleteButton()
 }
 extension EditMainViewDelegate {
 }
@@ -17,7 +18,12 @@ extension EditMainViewDelegate {
 class EditMainView: BaseView {
     weak var delegate: EditMainViewDelegate? = nil
     @IBOutlet weak var textField: UITextField!
-    @IBOutlet weak var deleteButton: UIButton!
+ 
+    @IBAction func touchedDeleteButton(_ sender: UIButton) {
+        if let delegate = delegate {
+            delegate.touchedDeleteButton()
+        }
+    }
 }
 // MARK: - Life cycle
 extension EditMainView {
